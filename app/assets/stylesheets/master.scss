@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Lora');
 
 .clear {
   clear: both;
@@ -25,7 +26,11 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", 
+  "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", 
+  "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", 
+  "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", 
+  Georgia, serif;
   font-style: italic;
   padding-top: 26px;
   }
@@ -47,6 +52,20 @@ header {
 
 hr {
   clear: both;
+}
+
+h1{
+  padding-left: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  letter-spacing: -1.5px
+}
+
+h2{
+  padding-left: 120px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 200;
+  letter-spacing: -1.5px
 }
 
 
