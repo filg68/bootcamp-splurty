@@ -35,6 +35,16 @@
   padding-top: 26px;
   }
 
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", 
+  "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", 
+  "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", 
+  "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", 
+  Georgia, serif;
+  font-style: italic;
+  padding-top: 26px;
+  }
+
 .links {
   padding-top: 26px;
 }
@@ -44,6 +54,14 @@
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
 
+}
+
+.text-center{
+  text-align: center;
+  padding-left: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  letter-spacing: -1.5px
 }
 
 header {
@@ -61,12 +79,13 @@ h1{
   letter-spacing: -1.5px
 }
 
-h2{
+.author-field{
   padding-left: 120px;
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 200;
   letter-spacing: -1.5px
 }
+
 
 .next-quote{
   color: #f84342;
